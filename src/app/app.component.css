@@ -1,0 +1,13 @@
+.main-menu ul{
+    display: flex;
+    gap: 15px;
+    list-style: none;
+}
+
+.main-menu ul li a{
+    color: lightcoral;
+}
+
+.main-menu ul li a:hover{
+    color: black
+}
