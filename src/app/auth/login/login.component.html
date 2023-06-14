@@ -1,11 +1,11 @@
 <section class="section-login">
     <label class="texto-correo" for="email">Correo electronico</label>
     <br>
-    <input [(ngModel)]="email" placeholder="Ingrese su Email" type="email" id="email"> 
+    <input [(ngModel)]="email" placeholder="Ingrese su Email" type="email" id="email" (keyup.enter)="validarLogin()"> 
     <br>
     <label class="texto-password" for="password">Constraseña</label>
     <br>
-    <input [(ngModel)]="password" placeholder="Ingrese su Contraseña" type="password" id="password"> 
+    <input [(ngModel)]="password" placeholder="Ingrese su Contraseña" type="password" id="password" (keyup.enter)="validarLogin()"> 
     <br>
     <button (click)="validarLogin()" class="boton-inicio-sesion" type="submit">Iniciar sesión</button>
 </section>
