@@ -1,0 +1,11 @@
+<h1 class="titulo-recibidas">Mis transferencias recibidas</h1>
+<div class="fila-tabla">
+    <div class="cabecera-tabla">Concepto</div>
+    <div class="cabecera-tabla">Importe</div>
+    <div class="cabecera-tabla">Fecha</div>
+</div>
+<article class="fila-tabla solo-abajo" *ngFor="let transferencia of transferencias">
+    <div>{{transferencia.concepto}}</div>
+    <div>{{ transferencia.importe | currency: "EUR"}}</div>
+    <div>{{transferencia.fecha| date:"medium"}}</div>
+</article>

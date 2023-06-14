@@ -1,0 +1,23 @@
+.fila-tabla{
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.fila-tabla > div{
+    width: 20%;
+}
+
+.cabecera-tabla{
+    font-size: 20px;
+    font-weight: bolder;
+}
+
+.solo-abajo {
+    font-weight: lighter;
+    font-size: 13px;
+}
+
+.titulo-recibidas{
+    font-size: 20px;
+}
