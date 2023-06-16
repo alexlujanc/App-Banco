@@ -15,24 +15,16 @@ main {
     padding-right: 18px;
 }
 
-.grid-container {
-    display: grid;
-    grid-template-rows: auto;
-    grid-template-columns: 3fr 1fr;
-    grid-template-areas:
-        "header1 header2"
-        "nav nav"
-        "main sidebar"
-        "footer footer";
-    max-width: 960px;
-    margin: auto;
-    padding: 18px;
-}
 
 .logo{
-    grid-area: header1;
+    grid-area: header2;
     width: 100px;
     height: 100px;
+    text-align: center;
+}
+
+.loogo{
+    text-align: center;
 }
 
 .main-header {
@@ -131,4 +123,17 @@ main {
     main {
         min-height: auto;
     }
+}
+
+.titulo-recibidas{
+    font-size: 20px;
+}
+
+
+.main-menu ul{
+    background-color:black;
+}
+
+.titulo{
+    text-align: center;
 }

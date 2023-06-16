@@ -9,7 +9,8 @@ import { TablaTransferenciasComponent } from './components/tabla-transferencias/
 @NgModule({
   declarations: [
     AppComponent,
-    TablaTransferenciasComponent
+    TablaTransferenciasComponent,
+
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,24 @@
+
+
+.section-cambio-pass{
+
+    text-align: right;
+    padding: auto;
+    margin-right: 200px;
+    direction:ltr
+
+}
+
+.article-saldo{
+    text-align: center;
+}
+
+.parrafo-saldo{
+    line-height: 10;
+    
+}
+
+.importe{
+    color: rgb(13, 221, 13)
+}
+
